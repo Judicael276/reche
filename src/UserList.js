@@ -17,7 +17,7 @@ const UserList = () => {
         // Fetch users data from the backend
         const fetchUsers = async () => {
             try {
-                const response = await axios.get('http://localhost/research-training-backend/get-registrations.php');
+                const response = await axios.get('https://www.e-coress.com/research-training-backend/get-registrations.php');
                 setUsers(response.data);
                 setFilteredUsers(response.data);
             } catch (error) {

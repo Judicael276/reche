@@ -42,7 +42,7 @@ function Registration() {
         // Clear error if number is valid and submit form
         setError('');
         try{
-            axios.post('http://localhost/research-training-backend/register.php', formData)
+            axios.post('https://www.e-coress.com/research-training-backend/register.php', formData)
                 .then(response => {
                     swal({
                       title: response.data.message,
