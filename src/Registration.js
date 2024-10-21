@@ -431,17 +431,17 @@ function Registration() {
                   performances académiques de nos institutions.
                 </p>
               </div>
-              <div class="flex my-4 w-2/3 lg:w-1/2">
+              <div class="flex my-4 w-full lg:w-full">
                 <div class="flex flex-col">
                   <i class="fas fa-phone-alt pt-2 pr-2"></i>
                 </div>
                 <div class="flex flex-col">
-                  <h1 class="md:text-4xl sm:text-3xl text-2xl font-bold py-2">
+                  <h1 class="md:text-4xl sm:text-3xl text-2xl  text-white font-bold py-2">
                     Contactez
                   </h1>
-                  <p class="text-black">Tel: 0322430984</p>
-                  <p class="text-black">WhatsApp: +32465226861</p>
-                  <p class="text-black">Email: kameni.modeste@yahoo.fr</p>
+                  <p class=" text-white">Tel: 0322430984</p>
+                  <p class=" text-white">WhatsApp : +32465226861</p>
+                  <p class=" text-white">Email : kameni.modeste@yahoo.fr</p>
                 </div>
               </div>
             </div>
