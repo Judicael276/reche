@@ -21,7 +21,7 @@ const Hero = () => {
               loop
             />
             <span className='md:text-2xl text-xl py-4'> nous avons le plaisir d'annoncer l'organisation d'une formation de haute qualité,
-              qui se tiendra du 05 au 16 décembre 2024. 
+              qui se tiendra du 05 au 18 décembre 2024. 
             </span>
           </div>  
         </div>

@@ -16,9 +16,9 @@ function Registration() {
   const [loadign, setLoading] = useState(false);
 
   const locations = [
-    { name: "Université de Antananarivo", date: "2024-12-05 à 2024-12-07" },
-    { name: "Université de Mahajanga", date: "2024-12-09 à 2024-12-11" },
-    { name: "Université de Antsiranana", date: "2024-12-13 à 2024-12-16" },
+    { name: "Université de Antananarivo", date: "05-12-2024 à 07-12-2024" },
+    { name: "Université de Mahajanga", date: "09,10-12-2024 et 12-12-2024" },
+    { name: "Université de Antsiranana", date: "16-12-2024 à 18-12-2024" },
   ];
 
   const statuses = [
