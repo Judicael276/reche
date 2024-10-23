@@ -42,7 +42,7 @@ const UserList = () => {
     return (
         <div className="bg-white  h-screen my-4 px-4 w-full ">
              <h1 className=' text-4xl font-bold md:py-6'>
-              Liste des utlisateurs inscris
+              Liste des utlisateurs inscris {filteredUsers.length}
             </h1>
             <div className="flex justify-between mb-8">
             <select className=" bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" value={selectedLocation} onChange={handleLocationChange}>
