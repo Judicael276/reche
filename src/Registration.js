@@ -52,7 +52,6 @@ function Registration() {
             title: response.data.message,
             icon: "success",
           });
-          setLoading(false);
           setFormData({
             firstName: "",
             lastName: "",
@@ -61,6 +60,7 @@ function Registration() {
             location: "",
             status: "",
           });
+          setLoading(false);
         });
     } catch (error) {
       console.log(error);
@@ -68,9 +68,8 @@ function Registration() {
         title: "échec d'envoi",
         icon: "warning",
       });
-    } finally {
-      setLoading(false); // Set loading to false in both success and error cases
-    }
+      setLoading(false);
+    } 
   };
 
   const handleChange = (e) => {
@@ -417,6 +416,7 @@ function Registration() {
                     className="uppercase text-sm font-bold tracking-wide bg-[#00df9a] text-white p-3 rounded-lg w-full 
                                   focus:outline-none focus:shadow-outline"
                     type="submit"
+                    disabled={loadign}
                   >
                     {loadign == true ? "..." : "Envoyer"}
                   </button>
