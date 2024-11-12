@@ -17,7 +17,7 @@ function Registration() {
 
   const locations = [
     { name: "Université de Antananarivo", date: "05-12-2024 à 07-12-2024" },
-    { name: "Université de Mahajanga", date: "09,10-12-2024 et 12-12-2024" },
+    { name: "Université de Majunga", date: "09,10-12-2024 et 12-12-2024" },
     { name: "Université de Antsiranana", date: "16-12-2024 à 18-12-2024" },
   ];
 
